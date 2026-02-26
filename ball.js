@@ -6,7 +6,7 @@ let dir=1;
 function start()
 {
     if(intervalId) return;
-    intervalId= setInterval(move,50);
+    intervalId= setInterval(move,5);
 }
 
 function stop()
