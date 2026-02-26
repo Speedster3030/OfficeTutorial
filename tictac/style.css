@@ -2,7 +2,18 @@
 
 .box {
 
-  width: 250px;
-  height: 250 px;
+  width: 150px;
+  height: 150px;
   background-color: yellow;
+  font-size: 50px;
+}
+
+.box:hover {
+
+  background-color: white;
+}
+
+.side {
+
+  text-align: center;
 }
