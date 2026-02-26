@@ -27,4 +27,5 @@ app.get('/names', async (req, res) => {
     res.json(names);
 });
 
+app.use(express.static('.'));
 app.listen(3000);
